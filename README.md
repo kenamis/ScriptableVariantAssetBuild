@@ -9,3 +9,7 @@ This creates a new build script that enables creating variants assets for a buil
 In the "AddressableAssetsData/DataBuilders" folder, right mouse click in the folder, "Create->Addressables->Custom Build->Variant Assets", to create a new VariantAssets scriptable object.
 
 ![](./Images/DataBuilders.jpg)
+
+Then, in your Addressable Settings, add the new Variant Assets Build script to your list of "Build and Play Mode Scripts"
+
+![](./Images/aaSettings.jpg)
