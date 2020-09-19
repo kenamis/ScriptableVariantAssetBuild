@@ -23,3 +23,7 @@ The build script will only run on Addressable Groups with the ProcessVariantAsse
 With that schema added, then any number of VariantAssetsScript assets can be added.  Example, create the instances in a folder in "AddressableAssetsData/VariantAssetScripts".
 
 ![](./Images/schemaWithVariantScript.jpg)
+
+## ProcessVariantAssetsScript
+
+The abstract class ProcessVariantAssetsScript can be derived from to make new variant processing scripts. These are scriptable objects and instances of them are add to the ProcessVariantAssetsSchema to be processed.
